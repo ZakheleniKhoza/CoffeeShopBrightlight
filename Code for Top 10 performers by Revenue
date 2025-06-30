@@ -1,0 +1,16 @@
+----Code for top 10 performing product by total revenue----------
+SELECT Product_id,
+       PRODUCT_TYPE,
+       PRODUCT_CATEGORY,
+       PRODUCT_DETAIL,
+       store_location, 
+      SUM(UNIT_PRICE*transaction_qty) AS Total_revenue,
+      SUM (TRANSACTION_QTY) AS Total_Unit_Sold,
+FROM COFFEE_SHOP.COFFEE.SHOP_SALES
+GROUP BY PRODUCT_ID,
+         PRODUCT_TYPE,
+         PRODUCT_CATEGORY,
+         PRODUCT_DETAIL,
+         store_location
+ORDER BY TOTAL_Revenue DESC
+LIMIT 10;
