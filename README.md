@@ -1,5 +1,5 @@
 # CoffeeShopBrightlight
-# Problem Statement
+## Problem Statement
 Bright Coffee Shop aims to optimize revenue and support business growth under new leadership. As a Junior Data Analyst, I have been tasked with analyzing daily transactional sales data from January to June to uncover insights on product performance, customer purchasing behavior, and sales trends. The goal is to identify high-performing products, peak sales periods, and areas for operational improvement. The analysis will inform data-driven recommendations to enhance overall sales and support strategic decision-making.
 
 ## Role & Objective:
